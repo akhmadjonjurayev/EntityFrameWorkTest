@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\EntityFrameworkTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2582E083-F697-4DBC-A989-2EC7F147FF53}|EntityFrameworkTest.csproj|d:\\github\\entityframeworktest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2582E083-F697-4DBC-A989-2EC7F147FF53}|EntityFrameworkTest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2582E083-F697-4DBC-A989-2EC7F147FF53}|EntityFrameworkTest.csproj|d:\\github\\entityframeworktest\\data\\dbcontexthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2582E083-F697-4DBC-A989-2EC7F147FF53}|EntityFrameworkTest.csproj|solutionrelative:data\\dbcontexthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2582E083-F697-4DBC-A989-2EC7F147FF53}|EntityFrameworkTest.csproj|d:\\github\\entityframeworktest\\data\\simpledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2582E083-F697-4DBC-A989-2EC7F147FF53}|EntityFrameworkTest.csproj|solutionrelative:data\\simpledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2582E083-F697-4DBC-A989-2EC7F147FF53}|EntityFrameworkTest.csproj|d:\\github\\entityframeworktest\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2582E083-F697-4DBC-A989-2EC7F147FF53}|EntityFrameworkTest.csproj|solutionrelative:models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2582E083-F697-4DBC-A989-2EC7F147FF53}|EntityFrameworkTest.csproj|d:\\github\\entityframeworktest\\entityframeworktest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2582E083-F697-4DBC-A989-2EC7F147FF53}|EntityFrameworkTest.csproj|solutionrelative:entityframeworktest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\EntityFrameworkTest\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Github\\EntityFrameworkTest\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T15:39:39.929Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbContextHelper.cs",
+              "DocumentMoniker": "D:\\Github\\EntityFrameworkTest\\Data\\DbContextHelper.cs",
+              "RelativeDocumentMoniker": "Data\\DbContextHelper.cs",
+              "ToolTip": "D:\\Github\\EntityFrameworkTest\\Data\\DbContextHelper.cs",
+              "RelativeToolTip": "Data\\DbContextHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:37:52.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Document.cs",
+              "DocumentMoniker": "D:\\Github\\EntityFrameworkTest\\Models\\Document.cs",
+              "RelativeDocumentMoniker": "Models\\Document.cs",
+              "ToolTip": "D:\\Github\\EntityFrameworkTest\\Models\\Document.cs",
+              "RelativeToolTip": "Models\\Document.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:12:25.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleDbContext.cs",
+              "DocumentMoniker": "D:\\Github\\EntityFrameworkTest\\Data\\SimpleDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\SimpleDbContext.cs",
+              "ToolTip": "D:\\Github\\EntityFrameworkTest\\Data\\SimpleDbContext.cs",
+              "RelativeToolTip": "Data\\SimpleDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:04:02.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EntityFrameworkTest.csproj",
+              "DocumentMoniker": "D:\\Github\\EntityFrameworkTest\\EntityFrameworkTest.csproj",
+              "RelativeDocumentMoniker": "EntityFrameworkTest.csproj",
+              "ToolTip": "D:\\Github\\EntityFrameworkTest\\EntityFrameworkTest.csproj",
+              "RelativeToolTip": "EntityFrameworkTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-24T15:54:58.822Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
