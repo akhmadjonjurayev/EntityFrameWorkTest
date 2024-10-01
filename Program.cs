@@ -1,13 +1,15 @@
 ﻿
 using EntityFrameworkTest.Data;
-using Microsoft.EntityFrameworkCore;
+using EntityFrameworkTest.Services;
 
-DbContextHelper.SeedData();
+//DbContextHelper.SeedData();
 
 var _db = DbContextHelper.InitialDatabase();
 
-var query = _db.Documents.Where(d => d.RegNumber == "Test").ToQueryString();
+var documentId = UpdateChangeTrackerTester.AddData(_db);
 
-Console.WriteLine(query);
+var _db_2 = DbContextHelper.InitialDatabase();
+
+UpdateChangeTrackerTester.UpdateCommandChangeTrackerWithRandomKey(_db_2);
 
 Console.ReadKey();
