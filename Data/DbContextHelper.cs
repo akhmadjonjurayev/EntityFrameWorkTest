@@ -68,5 +68,36 @@ namespace EntityFrameworkTest.Data
 
             Console.WriteLine("SeedData Hosil qilindi !!!");
         }
+
+        public static void SeedCounter(Guid staffId)
+        {
+            var _db = InitialDatabase();
+
+            _db.Counters.Add(new Counter
+            {
+                CounterId = Guid.NewGuid(),
+                Count = 152,
+                MenuIdentifier = "for_sign",
+                StaffId = staffId
+            });
+
+            _db.Counters.Add(new Counter
+            {
+                CounterId = Guid.NewGuid(),
+                Count = 1874,
+                MenuIdentifier = "for_agreement",
+                StaffId = staffId
+            });
+
+            _db.Counters.Add(new Counter
+            {
+                CounterId = Guid.NewGuid(),
+                Count = 0,
+                MenuIdentifier = "for_execution",
+                StaffId = staffId
+            });
+
+            _db.SaveChanges();
+        }
     }
 }

@@ -39,8 +39,11 @@ namespace EntityFrameworkTest.Data
                 .HasPrincipalKey(l => l.MessageId)
                 .OnDelete(DeleteBehavior.SetNull);
 
-            modelBuilder.Entity<Message>()
-                .ToTable("Message", l => l.ExcludeFromMigrations());
+            modelBuilder.Entity<Document>()
+                .Property(l => l.Status)
+                .HasConversion(
+                v => v.ToString(),
+                v => Enum.Parse<DocumentStatus>(v));
 
             base.OnModelCreating(modelBuilder);
         }
@@ -50,5 +53,7 @@ namespace EntityFrameworkTest.Data
         public DbSet<Message> Messages { get; set; }
 
         public DbSet<Member> Members { get; set; }
+
+        public DbSet<Counter> Counters { get; set; }
     }
 }

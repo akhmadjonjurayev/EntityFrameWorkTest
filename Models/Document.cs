@@ -8,6 +8,8 @@ namespace EntityFrameworkTest.Models
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid DocumentId { get; set; }
 
+        public DocumentStatus Status { get; set; } = DocumentStatus.Created;
+
         public string RegNumber {  get; set; }
 
         public DateTime RegDate { get; set; }
@@ -55,5 +57,29 @@ namespace EntityFrameworkTest.Models
         public Document Document { get; set; }
 
         public Message Message { get; set; }
+    }
+
+    public class Counter
+    {
+        public Guid CounterId { get; set; }
+
+        public Guid StaffId { get; set; }
+
+        public string MenuIdentifier { get; set; }
+
+        public int Count { get; set; }
+    }
+
+    [Flags]
+    public enum DocumentStatus
+    {
+        Created,
+        Draft,
+        Project,
+        Signed,
+        ForConsidiretion,
+        ForExecution,
+        Done,
+        InCase
     }
 }
